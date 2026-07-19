@@ -1,0 +1,14 @@
+#panel {
+  background-color: transparent !important;
+  height: 30px;
+  font-size: 13px;
+  box-shadow: none;
+  margin: 3px;
+  padding: 3px;
+}
+#panel .panel-button {
+  background-color: $bg_color;
+}
+#panel .panel-button.clock-display .clock {
+  background-color: $bg_color;
+}
