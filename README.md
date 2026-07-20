@@ -1,7 +1,7 @@
 <img src="https://raw.githubusercontent.com/devlotfi/gnome-tokyo-night/main/github-assets/github-banner.png">
 
 # 📜 gnome-tokyo-night
-Technology icons for github markdown
+A Tokyo Night Theme for Gnome
 
 # 📌 Contents
 - [Theme setup](#-theme-setup)
