@@ -1,23 +1,28 @@
 <img src="https://raw.githubusercontent.com/devlotfi/gnome-tokyo-night/main/github-assets/github-banner.png">
 
 # 📜 gnome-tokyo-night
+
 A Tokyo Night Theme for Gnome
 
 # 📌 Contents
+
 - [Theme setup](#-theme-setup)
 - [Preview](#-preview)
 
 # 📂 Theme Setup
 
 ## Gnome Extensions
+
 - [Blur My Shell](https://extensions.gnome.org/extension/3193/blur-my-shell/)
 - [User Themes](https://extensions.gnome.org/extension/19/user-themes/)
 - [Dash To Dock](https://extensions.gnome.org/extension/307/dash-to-dock/)
 
 ## Packages
+
 - SCSSC (SCSS Compiler)
 
 ## Other
+
 - [VSCode Tokyo night theme](https://marketplace.visualstudio.com/items?itemName=enkia.tokyo-night)
 - [MacOS Tahoe Icons](https://github.com/vinceliuice/MacTahoe-icon-theme)
 
@@ -40,4 +45,3 @@ $ ./install.sh
 <img src="https://raw.githubusercontent.com/devlotfi/gnome-tokyo-night/main/github-assets/preview-1.png">
 <img src="https://raw.githubusercontent.com/devlotfi/gnome-tokyo-night/main/github-assets/preview-2.png">
 <img src="https://raw.githubusercontent.com/devlotfi/gnome-tokyo-night/main/github-assets/preview-3.png">
-<img src="https://raw.githubusercontent.com/devlotfi/gnome-tokyo-night/main/github-assets/preview-4.png">
