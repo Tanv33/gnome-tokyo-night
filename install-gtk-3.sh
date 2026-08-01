@@ -11,3 +11,5 @@ mkdir -p ~/.config/gtk-3.0
 rm -rf ~/.config/gtk-3.0/*
 
 cp -a "$SCRIPT_DIR/gtk-3/." ~/.config/gtk-3.0/
+
+echo "Done."

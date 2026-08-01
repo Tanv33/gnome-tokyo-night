@@ -16,4 +16,7 @@ sudo cp gnome-shell-theme.gresource /usr/share/gnome-shell/gnome-shell-theme.gre
 sudo chown root:root /usr/share/gnome-shell/gnome-shell-theme.gresource
 sudo chmod 644 /usr/share/gnome-shell/gnome-shell-theme.gresource  
 
+sudo cp "$SCRIPT_DIR/gnome-shell-system/95-gdm-settings" /etc/dconf/db/gdm.d/95-gdm-settings
+sudo dconf update
+
 echo "Done."

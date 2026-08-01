@@ -11,3 +11,5 @@ mkdir -p ~/.config/gtk-4.0
 rm -rf ~/.config/gtk-4.0/*
 
 cp -a "$SCRIPT_DIR/gtk-4/." ~/.config/gtk-4.0/
+
+echo "Done."

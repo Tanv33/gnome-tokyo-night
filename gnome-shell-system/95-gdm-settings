@@ -1,0 +1,18 @@
+#-------- Interface ---------
+[org/gnome/desktop/interface]
+#----------------------------
+accent-color='purple'
+cursor-theme='Bibata-Tokyo-Night'
+cursor-size=24
+icon-theme='Adwaita'
+show-battery-percentage=true
+clock-show-date=true
+clock-show-seconds=false
+clock-show-weekday=false
+clock-format='24h'
+text-scaling-factor=1.0
+
+#-------------- Mouse ---------------
+[org/gnome/desktop/peripherals/mouse]
+#------------------------------------
+accel-profile='flat'
