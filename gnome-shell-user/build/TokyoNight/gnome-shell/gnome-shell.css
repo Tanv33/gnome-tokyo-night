@@ -3323,11 +3323,11 @@ StScrollBar {
   margin: 3px;
   padding: 3px; }
 
-#panel .panel-button {
-  background-color: #24283b; }
-
-#panel .panel-button.clock-display .clock {
-  background-color: #24283b; }
+.panel-button,
+.panel-button .clock {
+  border: 3px solid red !important;
+  background-color: #24283b !important;
+  box-shadow: none; }
 
 #dash .dash-background {
   background-color: #24283b; }

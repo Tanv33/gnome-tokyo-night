@@ -1,0 +1,82 @@
+$base_color: #24283b;
+$text_color: #c0caf5;
+$caret_color: darken($text_color, 3%);
+$bg_color: #24283b;
+$fg_color: #a9b1d6;
+
+$selected_fg_color: #c0caf5;
+$selected_bg_color: darken(#9141ac, 20%);
+$selected_borders_color: darken($selected_bg_color, 30%);
+$borders_color: darken($bg_color, 10%);
+$alt_borders_color: darken($bg_color, 18%);
+$borders_edge: transparentize($fg_color, 0.93);
+$link_color: lighten($selected_bg_color, 20%);
+$link_visited_color: lighten($selected_bg_color, 10%);
+$top_hilight: $borders_edge;
+$dark_fill: mix($borders_color, $bg_color, 50%);
+$headerbar_color: darken($bg_color, 3%);
+$menu_color: mix($bg_color, $base_color, 20%);
+$popover_bg_color: $bg_color;
+$popover_hover_color: lighten($bg_color, 5%);
+
+$scrollbar_bg_color: mix($base_color, $bg_color, 50%);
+$scrollbar_slider_color: mix($fg_color, $bg_color, 60%);
+$scrollbar_slider_hover_color: mix($fg_color, $bg_color, 80%);
+$scrollbar_slider_active_color: lighten($selected_bg_color, 10%);
+
+$warning_color: #f57900;
+$error_color: #cc0000;
+$success_color: darken(#33d17a, 10%);
+$destructive_color: darken(#e01b24, 10%);
+
+$osd_fg_color: #a9b1d6;
+$osd_text_color: #c0caf5;
+$osd_bg_color: transparentize(darken(desaturate(#24283b, 100%), 10%), 0.1);
+$osd_insensitive_bg_color: transparentize(
+  mix($osd_fg_color, opacify($osd_bg_color, 1), 10%),
+  0.5
+);
+$osd_insensitive_fg_color: mix($osd_fg_color, opacify($osd_bg_color, 1), 50%);
+$osd_borders_color: transparentize(#1a1b26, 0.3);
+
+$sidebar_bg_color: mix($bg_color, $base_color, 50%);
+$base_hover_color: transparentize($fg_color, 0.95);
+
+$tooltip_borders_color: transparentize(#a9b1d6, 0.9);
+$shadow_color: transparentize(#1a1b26, 0.9);
+
+$drop_target_color: #4e9a06;
+
+// insensitive state derived colors
+$insensitive_fg_color: mix($fg_color, $bg_color, 50%);
+$insensitive_bg_color: mix($bg_color, $base_color, 60%);
+$insensitive_borders_color: $borders_color;
+
+// backdrop state derived colors
+$backdrop_base_color: lighten($base_color, 1%);
+$backdrop_text_color: mix($text_color, $backdrop_base_color, 80%);
+$backdrop_bg_color: $bg_color;
+$backdrop_fg_color: mix($fg_color, $backdrop_bg_color, 50%);
+$backdrop_insensitive_color: lighten($backdrop_bg_color, 15%);
+$backdrop_selected_fg_color: $backdrop_text_color;
+$backdrop_borders_color: mix($borders_color, $bg_color, 80%);
+$backdrop_dark_fill: mix($backdrop_borders_color, $backdrop_bg_color, 35%);
+$backdrop_sidebar_bg_color: mix($backdrop_bg_color, $backdrop_base_color, 50%);
+
+$backdrop_scrollbar_bg_color: darken($backdrop_bg_color, 3%);
+$backdrop_scrollbar_slider_color: mix(
+  $backdrop_fg_color,
+  $backdrop_bg_color,
+  40%
+);
+
+$backdrop_menu_color: mix($backdrop_bg_color, $backdrop_base_color, 20%);
+
+// special-cased widget colors
+$suggested_bg_color: $selected_bg_color;
+$suggested_border_color: $selected_borders_color;
+$progress_bg_color: $selected_bg_color;
+$progress_border_color: $selected_borders_color;
+$checkradio_bg_color: lighten($selected_bg_color, 10%);
+$checkradio_fg_color: $selected_fg_color;
+$checkradio_borders_color: darken($checkradio_bg_color, 40%);

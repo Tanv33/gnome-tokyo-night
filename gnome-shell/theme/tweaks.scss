@@ -6,11 +6,12 @@
   margin: 3px;
   padding: 3px;
 }
-#panel .panel-button {
-  background-color: $bg_color;
-}
-#panel .panel-button.clock-display .clock {
-  background-color: $bg_color;
+
+.panel-button,
+.panel-button .clock {
+  border: 1px solid st-transparentize($bg_color, 1) !important;
+  background-color: $bg_color !important;
+  box-shadow: none;
 }
 
 #dash .dash-background {
