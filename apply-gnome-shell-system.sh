@@ -3,13 +3,22 @@ set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-echo "Installing System GNOME Shell Theme..."
+echo "Building GNOME Shell theme..."
+
+# Ensure the output directory exists (creates it if missing, no-op if present)
+mkdir -p "$SCRIPT_DIR/gnome-shell/build"
+
+# sassc overwrites OUT_FILE if it already exists, and creates it if not
+sassc -a "$SCRIPT_DIR/gnome-shell/theme/gnome-shell-dark.scss" "$SCRIPT_DIR/gnome-shell/build/gnome-shell.css"
+
+echo "Applying System GNOME Shell Theme..."
 
 cp "$SCRIPT_DIR/gnome-shell/build/gnome-shell.css" "$SCRIPT_DIR/gnome-shell-system/gresource/gnome-shell-light.css"
 cp "$SCRIPT_DIR/gnome-shell/build/gnome-shell.css" "$SCRIPT_DIR/gnome-shell-system/gresource/gnome-shell-dark.css"
 
 cd "$SCRIPT_DIR/gnome-shell-system/gresource"
 
+rm -f gnome-shell-theme.gresource
 glib-compile-resources --target=gnome-shell-theme.gresource gnome-shell-theme.gresource.xml
 
 sudo cp gnome-shell-theme.gresource /usr/share/gnome-shell/gnome-shell-theme.gresource  

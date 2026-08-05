@@ -1985,12 +1985,10 @@ searchbar > revealer > box {
 headerbar {
   padding: 0 6px;
   min-height: $_headerbar_height;
-  border-width: 0 0 1px;
-  border-style: solid;
-  border-color: $alt_borders_color;
+  border: none;
   border-radius: 0;
 
-  @include headerbar_fill(darken($bg_color, 10%));
+  background: $bg_color;
 
   &:backdrop {
     border-color: $backdrop_borders_color;
@@ -2038,7 +2036,7 @@ headerbar {
     border-color: $suggested_border_color;
     text-shadow: 0 -1px transparentize(black, 0.5);
 
-    @include headerbar_fill($suggested_bg_color, $_hc);
+    background: $bg_color;
 
     &:backdrop {
       background-color: $suggested_bg_color;

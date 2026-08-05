@@ -3,7 +3,7 @@ set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-echo "Intalling GRUB theme..."
+echo "Applying GRUB theme..."
 
 sudo mkdir -p /boot/grub/themes
 sudo cp -rf "$SCRIPT_DIR/grub/theme" /boot/grub/themes/fedora-tokyo-night

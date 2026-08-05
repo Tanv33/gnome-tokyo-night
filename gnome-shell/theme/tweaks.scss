@@ -1,17 +1,13 @@
 #panel {
   background-color: transparent !important;
-  height: 30px;
-  font-size: 13px;
-  box-shadow: none;
+  height: 28px;
   margin: 3px;
-  padding: 3px;
 }
 
 .panel-button,
 .panel-button .clock {
   border: 1px solid st-transparentize($bg_color, 1) !important;
   background-color: $bg_color !important;
-  box-shadow: none;
 }
 
 #dash .dash-background {

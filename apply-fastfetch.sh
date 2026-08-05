@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+echo "Applying Fastfetch theme..."
+
+cp -rf "$SCRIPT_DIR"/fastfetch/*  ~/.config/fastfetch/
+
+echo "Done."
