@@ -4500,36 +4500,36 @@ colorchooser .popover.osd {
 decoration {
   border-radius: 8px 8px 0 0;
   border-width: 0px;
-  box-shadow: 0 3px 9px 1px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 0 3px 9px 1px rgba(0, 0, 0, 0.5), 0 0 0 1px #2e334b;
   margin: 10px; }
   decoration:backdrop {
-    box-shadow: 0 3px 9px 1px transparent, 0 2px 6px 2px rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.75);
+    box-shadow: 0 3px 9px 1px transparent, 0 2px 6px 2px rgba(0, 0, 0, 0.2), 0 0 0 1px #2e334b;
     transition: 200ms ease-out; }
   .maximized decoration, .fullscreen decoration {
     border-radius: 0;
     box-shadow: none; }
   .tiled decoration, .tiled-top decoration, .tiled-right decoration, .tiled-bottom decoration, .tiled-left decoration {
     border-radius: 0;
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.75), 0 0 0 20px transparent; }
+    box-shadow: 0 0 0 1px #2e334b, 0 0 0 20px transparent; }
     .tiled decoration:backdrop, .tiled-top decoration:backdrop, .tiled-right decoration:backdrop, .tiled-bottom decoration:backdrop, .tiled-left decoration:backdrop {
-      box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.75), 0 0 0 20px transparent; }
+      box-shadow: 0 0 0 1px #2e334b, 0 0 0 20px transparent; }
   .popup decoration {
     box-shadow: none; }
   .ssd decoration {
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.75); }
+    box-shadow: 0 0 0 1px #2e334b; }
   .ssd decoration:backdrop {
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.75); }
+    box-shadow: 0 0 0 1px #2e334b; }
   .ssd.maximized decoration, .ssd.maximized decoration:backdrop {
     box-shadow: none; }
   .csd.popup decoration {
     border-radius: 5px;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.65); }
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(46, 51, 75, 0.9); }
   tooltip.csd decoration {
     border-radius: 5px;
     box-shadow: none; }
   messagedialog.csd decoration {
     border-radius: 8px;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.65); }
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(46, 51, 75, 0.9); }
   .solid-csd decoration {
     margin: 0;
     padding: 4px;
