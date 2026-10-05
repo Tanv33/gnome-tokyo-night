@@ -95,6 +95,16 @@ $ ./apply-grub.sh
 Firefox is not covered. Its UI does not follow the GTK theme, so it needs a
 Firefox theme or [Firefox Color](https://color.firefox.com).
 
+### Troubleshooting
+
+**The top panel looks like a flat dark bar instead of blurred.** Blur My Shell
+dims the blur to 60% by default, and the wallpapers here are plain sky across
+the top of the screen, so there is very little detail for the blur to show.
+The result is a flat, dark strip even though the blur is working correctly.
+
+Raise the blur brightness in Blur My Shell's preferences, under the panel
+section, or pick a wallpaper with more detail near the top.
+
 ### Contributing
 
 Editing the SCSS sources needs `sassc`. When it is installed the apply scripts
